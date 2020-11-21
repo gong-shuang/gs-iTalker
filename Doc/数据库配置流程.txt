@@ -1,0 +1,14 @@
+step 1: SET PASSWORD = PASSWORD(‘your new password‘);
+step 2: ALTER USER ‘root‘@‘localhost‘ PASSWORD EXPIRE NEVER;
+step 3: flush privileges;
+
+http://www.php3.cn/a/65.html
+http://jingyan.baidu.com/article/afd8f4de9006d934e286e9fd.html
+http://www.cnblogs.com/easyzikai/archive/2012/06/17/2552357.html
+http://blog.csdn.net/preterhuman_peak/article/details/40396873
+http://blog.csdn.net/chr23899/article/details/40401089
+
+GRANT ALL PRIVILEGES ON *.* TO 'qj'@'%' IDENTIFIED BY 'u9INDOWjda91qj' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'yq'@'%' IDENTIFIED BY 'u9INDOWjda91yq' WITH GRANT OPTION;
+
+flush privileges;
