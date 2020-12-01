@@ -1,11 +1,10 @@
 package net.qiujuer.italker.factory.presenter.group;
 
-import android.support.v7.util.DiffUtil;
+import androidx.recyclerview.widget.DiffUtil;
 
 import net.qiujuer.italker.factory.data.group.GroupsDataSource;
 import net.qiujuer.italker.factory.data.group.GroupsRepository;
 import net.qiujuer.italker.factory.data.helper.GroupHelper;
-import net.qiujuer.italker.factory.data.helper.UserHelper;
 import net.qiujuer.italker.factory.model.db.Group;
 import net.qiujuer.italker.factory.presenter.BaseSourcePresenter;
 import net.qiujuer.italker.factory.utils.DiffUiDataCallback;

@@ -1,6 +1,6 @@
 package net.qiujuer.italker.factory.presenter.message;
 
-import android.support.v7.util.DiffUtil;
+import androidx.recyclerview.widget.DiffUtil;
 import android.text.TextUtils;
 
 import net.qiujuer.italker.factory.data.helper.MessageHelper;

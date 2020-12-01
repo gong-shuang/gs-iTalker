@@ -1,6 +1,6 @@
 package net.qiujuer.italker.factory.presenter.contact;
 
-import android.support.v7.util.DiffUtil;
+import androidx.recyclerview.widget.DiffUtil;
 
 import net.qiujuer.italker.common.widget.recycler.RecyclerAdapter;
 import net.qiujuer.italker.factory.data.DataSource;

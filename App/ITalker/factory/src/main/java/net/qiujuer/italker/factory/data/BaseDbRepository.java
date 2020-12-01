@@ -1,6 +1,6 @@
 package net.qiujuer.italker.factory.data;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.raizlabs.android.dbflow.structure.database.transaction.QueryTransaction;
 

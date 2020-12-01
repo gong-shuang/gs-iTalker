@@ -18,7 +18,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-Log.d("556677", "Thread:" + android.os.Process.myPid() );
+        Log.d("556677", "Thread:" + android.os.Process.myPid());
 
         // 调用Factory进行初始化
         Factory.setup();

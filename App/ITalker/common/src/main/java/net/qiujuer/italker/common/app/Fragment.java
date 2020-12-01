@@ -2,8 +2,8 @@ package net.qiujuer.italker.common.app;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.Nullable;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,7 +18,7 @@ import butterknife.Unbinder;
  * @author qiujuer
  */
 
-public abstract class Fragment extends android.support.v4.app.Fragment {
+public abstract class Fragment extends androidx.fragment.app.Fragment {
     protected View mRoot;
     protected Unbinder mRootUnBinder;
     protected PlaceHolderView mPlaceHolderView;    // 占位布局的作用？？？？？？？？？？？？？？

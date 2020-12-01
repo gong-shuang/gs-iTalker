@@ -1,6 +1,6 @@
 package net.qiujuer.italker.factory.presenter;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 
 import net.qiujuer.italker.common.widget.recycler.RecyclerAdapter;
 

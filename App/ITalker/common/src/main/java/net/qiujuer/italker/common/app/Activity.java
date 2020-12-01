@@ -2,9 +2,9 @@ package net.qiujuer.italker.common.app;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
 
 import net.qiujuer.italker.common.widget.convention.PlaceHolderView;
 
@@ -95,7 +95,7 @@ public abstract class Activity extends AppCompatActivity {
     public void onBackPressed() {
         // 得到当前Activity下的所有Fragment
         @SuppressLint("RestrictedApi")
-        List<android.support.v4.app.Fragment> fragments = getSupportFragmentManager().getFragments();
+        List<Fragment> fragments = getSupportFragmentManager().getFragments();
         // 判断是否为空
         if (fragments != null && fragments.size() > 0) {
             for (Fragment fragment : fragments) {

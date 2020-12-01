@@ -1,6 +1,6 @@
 package net.qiujuer.italker.factory.data;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 
 /**
  * 数据源接口定义

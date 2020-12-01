@@ -1,6 +1,6 @@
 package net.qiujuer.italker.factory.presenter.message;
 
-import android.support.v7.util.DiffUtil;
+import androidx.recyclerview.widget.DiffUtil;
 
 import net.qiujuer.italker.factory.data.message.SessionDataSource;
 import net.qiujuer.italker.factory.data.message.SessionRepository;

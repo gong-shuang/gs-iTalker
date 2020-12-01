@@ -1,6 +1,6 @@
 package net.qiujuer.italker.factory;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 import android.util.Log;
 
 import com.google.gson.Gson;

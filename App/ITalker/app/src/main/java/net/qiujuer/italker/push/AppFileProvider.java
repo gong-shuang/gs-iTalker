@@ -1,6 +1,6 @@
 package net.qiujuer.italker.push;
 
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 
 /**
  * Android7 FileProvider 适配

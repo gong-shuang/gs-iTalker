@@ -7,7 +7,7 @@
     tools:background="@drawable/bg_src_tianjin"
     tools:context="net.qiujuer.italker.push.frags.account.RegisterFragment">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_gradient_black"
@@ -193,7 +193,7 @@
 
     </FrameLayout>
 
-    <android.support.v4.widget.Space
+    <androidx.legacy.widget.Space
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_weight="1" />

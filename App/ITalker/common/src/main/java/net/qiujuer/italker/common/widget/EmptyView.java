@@ -2,7 +2,7 @@ package net.qiujuer.italker.common.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
